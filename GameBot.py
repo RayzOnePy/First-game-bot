@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
+import config
 
-token = "5104060853:AAGyvVtP8YYdpSwR8Aalgin4wpKcNs7MWTM"
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(config.key)
 
 class Characteristic:
     money = 0
